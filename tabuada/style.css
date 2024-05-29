@@ -1,11 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+/* Importa a fonte 'Pacifico' do Google Fonts para uso no documento */
 
 body { font: 12pt Arial; }
+/* Define a fonte do corpo do documento como Arial com tamanho de 12pt */
+
 h1, h2, h3 { font-family: 'Pacifico', cursive; font-weight: normal;}
+/* Define a fonte dos títulos h1, h2 e h3 como 'Pacifico' (cursiva) com peso normal */
+
 input[type=number] { font-size: 12pt; }
+/* Define o tamanho da fonte dos campos de entrada do tipo 'number' como 12pt */
+
 input[type=submit] { 
     background-color: green; 
     color: white; 
     font-size: 12pt; 
     padding: 5px; 
 }
+/* Define o estilo dos botões de envio do formulário:
+   - Cor de fundo verde
+   - Cor do texto branca
+   - Tamanho da fonte de 12pt
+   - Preenchimento interno de 5px */
+
+
+   /*
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');	Importa a fonte 'Pacifico' do Google Fonts para uso no documento.
+body { font: 12pt Arial; }	Define a fonte do corpo do documento como Arial com tamanho de 12pt.
+h1, h2, h3 { font-family: 'Pacifico', cursive; font-weight: normal;}	Define a fonte dos títulos h1, h2 e h3 como 'Pacifico' (cursiva) com peso normal.
+input[type=number] { font-size: 12pt; }	Define o tamanho da fonte dos campos de entrada do tipo 'number' como 12pt.
+input[type=submit] {	Define o estilo dos botões de envio do formulário.
+background-color: green;	Cor de fundo verde.
+color: white;	Cor do texto branca.
+font-size: 12pt;	Tamanho da fonte de 12pt.
+padding: 5px;	Preenchimento interno de 5px.
+   */
