@@ -1,64 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- Define o conjunto de caracteres UTF-8 para suportar caracteres especiais -->
     <meta charset="UTF-8">
-    <!-- Define a largura da viewport para o tamanho do dispositivo e a escala inicial -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Define o título da página -->
-    <title>Tabuada</title>
-    <!-- Link para o arquivo CSS externo -->
-    <link rel="stylesheet" href="style.css">
+    <title>tabuada</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Título principal da página -->
-    <h1>Super Tabuada</h1>
-    <!-- Parágrafo de instrução -->
-    <p>Escreva um número na caixa a seguir e te mostrarei a tabuada dele.</p>
-    <!-- Seção de entrada do formulário -->
+    <h1>tabuada</h1>
+    <p>Escreva um numero na caixa a seguir para ser apresentada a tabuada dele de 0 á 10 </p>
     <section id="entrada">
-        <!-- Formulário com método GET -->
-        <form action="#" method="get">
-            <p>
-                <!-- Rótulo do campo de entrada -->
-                <label for="fnum">Número: </label>
-                <!-- Campo de entrada numérico -->
-                <input type="number" name="num" id="fnum" placeholder="Número: ">
-                <!-- Botão de envio do formulário com chamada de função JavaScript -->
-                <input type="submit" value="Tabuada" formaction="javascript:tabuada()">
-            </p>
-        <!-- Fim do formulário -->
-        </form>
-    <!-- Fim da seção de entrada -->
+            <form action="#" method="get">
+                <p>
+                    <label for="fnum">Numero: </label>
+                    <input type="number" name="num" id="fnum" placeholder="Numero: "> <!----> 
+                    <input type="submit" value="Gerar tabuada" formaction="javascript:tabuada()">
+                </p>
+            </form>
     </section>
-    <!-- Seção de saída -->
     <section id="saida">
-        <!-- Parágrafo de saída -->
-        <p>Preencha os dados acima e aperte o botão.</p>
-    <!-- Fim da seção de saída -->
+        <p>preencha os dados a cima e aperte o botão</p>
     </section>
-    <!-- Link para o arquivo JavaScript externo -->
-    <script src="script.js"></script>
-<!-- Fim do corpo da página -->
+    <script src="main.js"></script>    
 </body>
-<!-- Fim do HTML -->
 </html>
-
-<!--
-<!DOCTYPE html>	Define o tipo de documento como HTML.
-<html lang="pt-br">	Define o início do documento HTML com o idioma português do Brasil.
-<head>	Contém metadados do documento, como título, codificação, etc.
-<meta>	Define metadados do documento, como charset e viewport.
-<title>	Define o título da página.
-<link>	Define a relação entre o documento atual e um recurso externo (CSS).
-<body>	Contém o conteúdo visível da página.
-<h1>, <p>	Elementos para exibir texto e títulos.
-<section>	Define uma seção dentro do documento.
-<form>	Define um formulário HTML.
-<label>	Define um rótulo para um elemento do formulário.
-<input>	Define um campo de entrada no formulário.
-<submit>	Define um botão de envio do formulário.
-<script>	Define um script JavaScript.
--->
-
-
