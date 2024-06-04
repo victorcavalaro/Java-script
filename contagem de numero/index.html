@@ -1,61 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- Define o conjunto de caracteres UTF-8 para suportar caracteres especiais -->
     <meta charset="UTF-8">
-    <!-- Define a largura da viewport para o tamanho do dispositivo e a escala inicial -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Define o título da página -->
     <title>Dados de Formulário</title>
-    <!-- Link para o arquivo CSS externo -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Título principal da página -->
-    <h1>Contando de 0 até um número positivo qualquer</h1>
-    <!-- Parágrafo de instrução -->
-    <p>Escolha o limite final para a contagem a partir do 0 (digite apenas números postivos)</p>
-    <!-- Seção de entrada do formulário -->
+    <h1>Contagem de numeros de 0 ao que for determinado</h1>
+    <p>Escolha o limite final da contagem a partir de 0 (digite apenas numeros positivos)</p>
     <section id="entrada">
-        <!-- Comentário sobre onde encontrar mais informações sobre formulários -->
-        <!-- Início do formulário com método GET -->
         <form action="#" method="get">
-            <!-- Rótulo do campo de entrada -->
-            <label for="fnum">Valor final: </label>
-            <!-- Campo de entrada numérico -->
+            <label for="fnum">valor final: </label>
             <input type="number" name="num" id="fnum" placeholder="Apenas positivos">
-            <!-- Botão de envio do formulário com chamada de função JavaScript -->
-            <input type="submit" value="Contar" formaction="javascript:contagem()">
-            <!-- Fim do formulário -->
+            <input type="submit" value="contar" formaction="javascript:contagem()">
         </form>
-    <!-- Fim da seção de entrada -->
     </section>
-    <!-- Seção de saída -->
     <section id="saida">
-        <!-- Parágrafo de saída -->
         <p>Preencha os dados acima e aperte o botão.</p>
-    <!-- Fim da seção de saída -->
     </section>
-    <!-- Link para o arquivo JavaScript externo -->
-    <script src="script.js"></script>
-<!-- Fim do corpo da página -->
+    <script src="main.js"></script>
 </body>
-<!-- Fim do HTML -->
 </html>
-
-<!--
-<!DOCTYPE html>	Define o tipo de documento como HTML.
-<html>	Define o início do documento HTML.
-<head>	Contém metadados do documento, como título, codificação, etc.
-<meta>	Define metadados do documento, como charset e viewport.
-<title>	Define o título da página.
-<link>	Define a relação entre o documento atual e um recurso externo (CSS).
-<body>	Contém o conteúdo visível da página.
-<h1>, <p>	Elementos para exibir texto e títulos.
-<section>	Define uma seção dentro do documento.
-<form>	Define um formulário HTML.
-<label>	Define um rótulo para um elemento do formulário.
-<input>	Define um campo de entrada no formulário.
-<submit>	Define um botão de envio do formulário.
-<script>	Define um script JavaScript.
--->
