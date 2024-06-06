@@ -1,0 +1,10 @@
+{
+    "post":[
+        {"id": 1, "title": "post 1", "author": "author 1"},
+        {"id": 2, "title": "post 2", "author": "author 2"}
+    ],
+    "comentes":[
+        {"id": 1, "body": "some comment", "postId": 1}
+    ],
+    "profile":{ "name": "john doe"}
+}

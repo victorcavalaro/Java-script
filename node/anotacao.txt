@@ -1,0 +1,330 @@
+comandos do node 
+
+comandos do node para terminal 
+
+terminal
+ 
+inicialização e execução de scripts {
+
+node <arquivos> {
+    executa arquivos javascript especifico
+}
+
+node {
+    inicia o REPL (Read-Eval-Print Loop), 
+    uma interface interativa para executar 
+    comando javascript
+}
+}
+
+gerenciamento De Modulos {
+
+Npm Init{
+    inicia um novo projeto Node.js, Criando
+    um arquivo "Package.json"
+}
+
+npm install <pacote>{
+    instala um pacote Node.js, localmente
+}
+
+npm install -g <pacote>{
+    Instala um pacote node.js globalmente
+}
+
+npm uninstall <pacote> {
+    remove os pacotes instalados
+}
+
+npm update{
+    atualiza os pacotes instalados
+}
+
+npm list{
+    lista todos os pacotes instalados 
+}
+
+npm outdated {
+    verifica se tem pacote desatualizado
+}
+
+npm run <scripts>{
+    executa um script definido no "Package.json"
+}
+}
+
+Módulos e Funções do Node.js{
+
+Módulos Built-in{
+
+fs{
+    ódulo para operações de sistema de arquivos.
+} 
+
+http{
+    Módulo para criar servidores HTTP.
+}
+
+https{
+     Módulo para criar servidores HTTPS.
+}
+
+path{
+    Módulo para manipulação de caminhos de arquivos.
+}
+
+url{
+    Módulo para manipulação de URLs.
+}
+
+querystring{
+    Módulo para manipulação de strings de consulta.
+}
+
+crypto{
+    Módulo para criptografia.
+} 
+
+events{
+    Módulo para lidar com eventos.
+}
+
+util{
+    Módulo com utilitários.
+}
+
+stream{
+    Módulo para trabalhar com fluxos de dados.
+}
+
+os{
+    Módulo para informações do sistema operacional.
+}
+
+Funções Comuns
+
+require('<módulo>'){
+     Importa um módulo.
+}
+
+module.exports{
+    Exporta um módulo.
+}
+
+console.log(){
+    Imprime uma mensagem no console.
+}
+
+process{
+    Propriedade que fornece informações e controle sobre o processo atual do Node.js.
+}
+
+process.argv{
+    Array de argumentos passados na linha de comando.
+}
+
+process.env{
+    Objeto contendo variáveis de ambiente.
+}
+
+process.exit(){
+    Encerra o processo Node.js.
+}
+
+__dirname{
+    Diretório atual do módulo.
+}
+
+__filename{
+    Caminho completo do arquivo atual.
+}
+}
+}
+
+Outros Comandos Úteis{
+
+Depuração{
+
+node inspect <arquivo>{
+    Executa o script em modo de depuração.
+}
+
+node --inspect-brk <arquivo>{
+    Inicia o depurador e pausa na primeira linha do script.
+}
+
+node --inspect{
+    habilita o depurador remoto.
+}
+}
+
+Execução com Flags{
+
+node --version ou node -v{
+    Mostra a versão do Node.js.
+}
+
+node --help ou node -h{
+    Mostra a ajuda e opções de uso.
+}
+
+node --trace-deprecation{
+    Mostra rastreamento de depreciação.
+}
+
+node --trace-warnings{
+    Mostra rastreamento de avisos.
+}
+
+node --max-old-space-size=<MB>{
+    Ajusta o limite de memória máxima para o heap do V8.
+}
+}
+}
+
+como node.js funciona{
+o node.js ele é utilizado para rodar o 
+javascript, para que não precise utiliza 
+um navegador para utilizar o javascript
+ele executa uma simulação local para o 
+javascript ser executado.
+}
+
+componentes {
+
+Para entender como o Node pode ajudar 
+no ambiente de desenvolvimento 
+front-end — seja usando React,
+Angular ou Vue —, vamos conferir um exemplo.
+
+Há um conceito muito comum na programação
+chamado "componentes". O código abaixo tem uma 
+tag section, e dentro dela tem um componente 
+chamado Banner, com um 'B' maiúsculo:
+
+<section>
+    <header class="banner">
+        <img src="..." alt="...">
+        <p class="..."></p>
+    </header>
+</section>
+
+
+<section>
+    <Banner />
+</section>
+}
+
+
+Json server{
+
+    O json-server é uma ferramenta útil para criar rapidamente uma API REST fake com um arquivo 
+    JSON como backend. É ideal para desenvolvimento rápido, prototipagem e testes.
+
+passos para configurar e usar "json-server"{
+ 
+para instalar o json server você pode fazer a instalação dele localmente ou globalmente
+
+intalar o json server localmente{
+    npm install json-server --save-dev
+}
+
+instalar o json server globalmente{
+    npm install -g json-server 
+}
+
+como criar um arquivo json{
+    para criar um arquivo json que servira como banco de dados, precisa chamalo de "db.json"
+
+exemplo{
+    {
+  "posts": [
+    { "id": 1, "title": "Post 1", "author": "Author 1" },
+    { "id": 2, "title": "Post 2", "author": "Author 2" }
+  ],
+  "comments": [
+    { "id": 1, "body": "Some comment", "postId": 1 }
+  ],
+  "profile": { "name": "John Doe" }
+}
+
+Descrição: Este array armazena uma coleção de posts.
+
+Campos{
+    id: Um identificador único para cada post.
+    title: O título do post.
+    author: O autor do post.
+}
+
+Exemplos{
+    O primeiro post tem id 1, title "Post 1" e author "Author 1".
+    O segundo post tem id 2, title "Post 2" e author "Author 2".
+}
+}
+}
+}
+}
+
+
+
+
+tutorial de como fazer um db.json{
+
+
+1-primeiro crie uma pasta e abra ela no visual code.
+
+2-após a criação da pasta abra o terminal do vscode e altere para CMD e não powershell{
+
+    dentro do cmd digite o comando
+
+    npm init -y
+}
+
+
+3-agora instale o json-server{
+
+    1- coloque o comando no terminal do vscode 
+        npm install json-server --save-dev
+}
+
+4- crie um arquivo db.json{
+    na barra lateral do vscode, crie uma arquivo chamado db.json, igual é feito a criação de qualquer arquivo html, css, javascript ou java
+}
+
+5-dentro do arquivo db.json crie uma "estrutura de dados"{
+
+    {
+  "posts": [
+    { "id": 1, "title": "Post 1", "author": "Author 1" },
+    { "id": 2, "title": "Post 2", "author": "Author 2" }
+  ],
+  "comments": [
+    { "id": 1, "body": "Some comment", "postId": 1 }
+  ],
+  "profile": { "name": "John Doe" }
+    }
+
+
+Neste exemplo:
+
+posts: Um array de objetos representando posts de um blog.
+comments: Um array de objetos representando comentários dos posts.
+profile: Um objeto representando um perfil de usuário.
+}
+
+6-como vincular essas informações no Package.json{
+
+    para vincular esses dados arquivo Package.json a baixo da opção ("main":"index.js") crie um linha chamada script{
+        "scripts":{
+            "start": "json-server --watch db.json --port 3000"
+        }
+
+    }
+
+obs: caso ja tenha um "scripts" ja criado pode colocar a baixo do script que ja estiver escrito
+
+}
+
+
+
+}
