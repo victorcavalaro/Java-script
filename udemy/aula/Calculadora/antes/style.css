@@ -1,5 +1,5 @@
 body {
-	background: #6eb37f;
+	background: rgb(61, 83, 66);
 }
 .wrapper {
 	width: 400px;
@@ -43,3 +43,15 @@ input[type="radio"] {
 b {
 	font-size: 30px;
 }
+/*
+h1{
+	color: rgb(255, 255, 255);
+	font-size: large;
+	margin-block-end: auto;
+	background-color: #262626;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 5%;
+}
+	*/
