@@ -135,7 +135,7 @@ body{
 .lista__link{
     display: inline;
     margin-right: 20px;
-    color: var(--branco-principal);
+    color: var(--cinza-secundario);
     display: inline-block
 }
 
