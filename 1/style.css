@@ -1,0 +1,71 @@
+
+body {
+background-color: rgb(255, 255, 255);
+}
+
+
+
+.container__cabeçario{
+position:fixed;
+top: 0;
+left: 0;
+width: 100%;
+background-color: #ffffff;
+color: rgb(0, 0, 0);
+padding: 40px;
+text-align: center;
+z-index: 1000;
+}
+
+.sombra{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000000;
+  padding: 41px;
+  z-index: 1000;
+}
+
+.logo{
+  top: 15px;
+  right: 90%;
+  left: 10%;
+  height: 55px;
+  position: fixed;
+}
+
+
+.TITULO{
+  top: 0%;
+  right: 76%;
+  left: 14%;
+  height: 10px;
+  position: fixed;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+
+.container__pagina{
+
+}
+.pagina{
+  margin: 7%;
+  background-color: rgb(255, 255, 255);
+  
+
+} 
+
+.titulo{
+  margin: 5%;
+  color: rgb(0, 0, 0);
+}
+
+
+.barra{
+ 
+}
+
