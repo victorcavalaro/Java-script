@@ -1,7 +1,11 @@
-
 body {
-background-color: rgb(255, 255, 255);
+  background-image: url('img/Design\ sem\ nome.jpg');
+  background-size: cover; /* Faz a imagem cobrir todo o fundo */
+  background-repeat: no-repeat; /* Evita a repetição da imagem */
+  background-position: center; /* Centraliza a imagem */
+  background-attachment: fixed; /* Fixa a imagem na janela de visualização */
 }
+
 
 
 
@@ -12,7 +16,7 @@ left: 0;
 width: 100%;
 background-color: #ffffff;
 color: rgb(0, 0, 0);
-padding: 40px;
+padding: 70px;
 text-align: center;
 z-index: 1000;
 }
@@ -22,16 +26,16 @@ z-index: 1000;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #000000;
-  padding: 41px;
+  background-color: #51ff00;
+  padding: 72px;
   z-index: 1000;
 }
 
 .logo{
   top: 15px;
-  right: 90%;
-  left: 10%;
-  height: 55px;
+  right: 50%;
+  left: 50%;
+  height: 80px;
   position: fixed;
 }
 
@@ -43,29 +47,20 @@ z-index: 1000;
   height: 10px;
   position: fixed;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-style: normal;
+  font-style:oblique;
   font-weight: 600;
   color: rgb(0, 0, 0);
-}
-
-
-.container__pagina{
-
-}
-.pagina{
-  margin: 7%;
-  background-color: rgb(255, 255, 255);
+  font:bold;
   
+}
 
-} 
+.pag1{
+  padding: 7%;
+  color: #ffffff;
 
-.titulo{
-  margin: 5%;
-  color: rgb(0, 0, 0);
 }
 
 
-.barra{
- 
+.pag1__titulo{
+  font-family:cursive
 }
-
